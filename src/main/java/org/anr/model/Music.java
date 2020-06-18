@@ -1,4 +1,6 @@
-package org.anr;
+package org.anr.model;
+
+import org.anr.model.Main;
 
 import java.io.File;
 import java.io.IOException;

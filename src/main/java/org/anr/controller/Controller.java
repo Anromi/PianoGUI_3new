@@ -1,9 +1,10 @@
-package org.anr;
+package org.anr.controller;
 
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
+import org.anr.model.Music;
 
 import java.util.logging.Logger;
 

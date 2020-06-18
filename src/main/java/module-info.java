@@ -6,6 +6,8 @@ module org.anr {
     requires java.logging;
     requires java.desktop;
 
-    opens org.anr to javafx.fxml;
-    exports org.anr;
+    opens org.anr.controller to javafx.fxml;
+    opens org.anr.model to javafx.fxml;
+    exports org.anr.controller;
+    exports org.anr.model;
 }

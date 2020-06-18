@@ -1,4 +1,4 @@
-package org.anr;
+package org.anr.model;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
